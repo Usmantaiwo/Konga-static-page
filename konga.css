@@ -1,0 +1,178 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: white;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+header{
+    width: 100%;
+    height:40%;
+    background: white;
+    box-shadow: 0px, 2px,2px,2px;
+}
+
+#navbar1{
+    float: left;
+}
+
+#navbar1 li{
+    float: left;
+    list-style: none;
+    margin: 7px;
+}
+
+#navbar1 a{
+    color:black;
+    text-decoration: none;
+
+}
+
+#navbar1 a:hover{
+    color: goldenrod;
+}
+
+#navbar2{
+    float: right;
+}
+
+#navbar2 li{
+    float:left;
+    list-style: none;
+    margin:7px;
+
+}
+
+#navbar2 a{
+    color: black;
+    text-decoration: none;
+}
+
+#navbar2 a:hover{
+    color: goldenrod;
+}
+
+#banner{
+    width: 100%;
+    height:30px;
+    background-color:rgb(210, 24, 86); 
+    padding-top:4px;
+    padding-left: 12.5%;
+    padding-right: 12.5%; 
+
+}
+#banner :after{
+    display: block;
+    clear:both;
+}
+#bannerlist li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    padding: 0px;
+}
+
+#bannerlist a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.img{
+    margin-left: 10px;
+}
+    
+.active{
+    border: 2px pink solid;
+    padding: 2px;
+}
+#snd {
+
+display: flex;
+}
+.form{
+    display:flex;
+    margin-top: 10px;
+    height: 40px;
+    width:40%;
+}
+
+#left1{
+    height: 30%;
+}
+.gallery{
+    display: inline-block;
+    margin-left: 5%;
+}
+.deals{
+    padding-left:12.5%;
+
+}
+
+.divs{
+    display: inline-block;
+}
+
+.products{
+    margin-left: 5%;
+    display: flex;
+     background-color: white;
+     width: 85%;
+     margin-top:0.5%;
+    margin-bottom:0.5%;
+    }
+ .button{
+     border: 0;
+     background-color: orange;
+     color: wheat;
+     border-radius: 1px;
+
+}
+
+.image{
+	width: 10%;
+	 height:10%;
+	 border-left:5%;
+}
+label{
+	font-size: 0.7em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.sidetext{
+    width: 12.5%;
+    font-size:12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align:left;
+    margin-left:0.8%;
+}
+
+
+
+.homeicon{
+    background-color: green;
+    font-size: 1.7em;
+    font-family: arial;
+    width:100%;
+    font-weight: 550em;
+    text-align: left;
+    color: white;
+}
+.view{
+    background-color:green;
+    height:5%;
+    font-weight:600;
+    color: aliceblue;
+}
+
+.largeproducts{
+    display: inline;
+}
